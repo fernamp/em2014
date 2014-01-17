@@ -1,0 +1,477 @@
+/* ==========================================================================
+   HTML5 Boilerplate styles - h5bp.com (generated via initializr.com)
+   ========================================================================== */
+
+html,
+button,
+input,
+select,
+textarea {
+    color: #222;
+}
+
+body {
+    font-size: 1em;
+    line-height: 1.4;
+}
+
+::-moz-selection {
+    background: #b3d4fc;
+    text-shadow: none;
+}
+
+::selection {
+    background: #b3d4fc;
+    text-shadow: none;
+}
+
+hr {
+    display: block;
+    height: 1px;
+    border: 0;
+    border-top: 1px solid #ccc;
+    margin: 1em 0;
+    padding: 0;
+}
+
+img {
+    vertical-align: middle;
+}
+
+fieldset {
+    border: 0;
+    margin: 0;
+    padding: 0;
+}
+
+textarea {
+    resize: vertical;
+}
+
+.chromeframe {
+    margin: 0.2em 0;
+    background: #ccc;
+    color: #000;
+    padding: 0.2em 0;
+}
+
+
+/* ==========================================================================
+   Author's custom styles
+   ========================================================================== */
+
+ body {
+    font-family:"Open Sans", Arial, sans-serif;
+    font-weight: 400;
+    color: #303030;
+    background: #f0f0f0 url('../img/bk0.png') center top;
+}
+
+#bigbk {
+    min-height: 100px;
+    margin: 0 auto;
+    width: 100%;
+    height: 191px;
+    /*display: table;*/
+    background: transparent url('../img/bk1.png') left top repeat-x;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+}
+
+#site {
+    margin: 0 auto;
+    width: 1024px;
+    height: 100%;
+    /*display: table;*/
+    background: #ffffff;
+    box-shadow: 0 0 60px 25px #ffffff;
+}
+
+.topspace {
+    height: 189px;
+}
+
+/* TOPPEN */
+
+#tophead {
+    margin: 0 auto;
+    width: 1024px;
+}
+
+.top-bar {
+    background-color: #333333;
+    color: #ffffff;
+    text-align: right;
+    height: 14px;
+}
+
+.top-bar .site_support_menu {
+    height: 14px; /* same as above */
+    width: 310px;
+    margin-right: 40px;
+    line-height: 0.5em;
+    float: right;
+}
+
+.site_support_menu a, .site_support_menu a:link, .site_support_menu a:visited {
+    color: #ffffff;
+    text-decoration: none;
+    font-size: 0.625em;
+    margin-right: 12px;
+    transition: all 500ms;
+}
+
+.site_support_menu a:hover, .site_support_menu a:active, .site_support_menu a:focus {
+    color: #c0c0c0;
+}
+
+.corp-bar {
+    background-color: #f5cf34;
+    height: 55px;
+    width: 1024px;
+}
+
+.corp-bar .logo {
+    margin-left: 40px;
+    padding-top: 9px;
+    height: 36px;
+    width: 127px;
+}
+
+.corp-bar .logo img {
+    border: 0;
+    height: 36px;
+    width: 127px;
+}
+
+.triangle {
+    background: transparent url('../img/y_arrow.png') top left no-repeat ;
+    float: left;
+    margin: 10px 0 0 70px;
+    width: 20px;
+    height: 20px;
+}
+
+.bigmenu {
+    background-color: #f3f3f3;
+    height: 120px;
+}
+
+/* MAIN */
+
+#midmain {
+    width: 964px;
+    margin: 0 auto;
+    display: table;
+    padding: 12px 30px 45px 30px;
+}
+
+#midmain h1, #midmain h2,
+#midmain h3, #midmain h4,
+#midmain h5, #midmain h6 {
+    margin: 0;
+}
+
+#midmain h1{
+    font-size: 1.5em;
+    line-height: 40px;
+}
+
+#midmain h2{
+    font-size: 1.25em;
+    line-height: 40px;
+}
+
+#midmain h3{
+    font-size: 1em;
+    line-height: 34px;
+}
+
+#midmain h4{
+    font-size: 0.875em;
+    line-height: 34px;
+}
+
+#midmain h5{
+    font-size: 0.75em;
+    line-height: 28px;
+}
+
+#midmain h6{
+    font-size: 0.6875em;
+    line-height: 28px;
+}
+
+#midmain p {
+    font-size: 0.875em;
+    margin: 4px 0 10px 0;
+}
+
+/* Blocks */
+
+.unit_base {
+    background-color: #f3f3f3;
+    width: 266px;
+    float: left;
+    margin-left: 30px;
+    margin-top: 35px;
+}
+
+.unit_base .utitle {
+    background-color: #dddddd;
+    height: 42px;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+#midmain .unit_base .utitle h5 {
+    line-height: 42px;
+}
+
+.unit_base .ucont {
+    margin: 0;
+    padding: 0;
+}
+
+.unit_base .ulist {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.unit_base .ulist li {
+    margin: 0;
+    border-bottom: 1px solid #dddddd;
+}
+
+.unit_base .ulist li a {
+    color: #303030;
+    height: 69px;
+    padding-left: 40px;
+    text-decoration: none;
+    display: block;
+    
+    transition: all 500ms;
+}
+
+.unit_base .ulist li a:hover {
+    background: #e3e3e3;
+}
+
+.unit_base .ulistunit {
+    font-size: 0.75em;
+    font-weight: bold;
+    padding-top: 8px;
+}
+
+.unit_base .ulistunit p {
+    font-weight: normal;
+}
+
+/* FOOTER */
+
+#bottomfoot {
+    width: 1024px;
+    height: 90px;
+    margin: 0 auto;
+    background: #333333;
+}
+
+#footbars {
+    height: 90px;
+    padding: 0 30px;
+}
+
+.footer1 {
+    width: 50%;
+    padding-top:20px;
+    float: left;
+}
+
+.footer1 a, .footer1 a:link, .footer1 a:visited {
+    color: #ffffff;
+    text-decoration: none;
+    font-size: 0.625em;
+    margin-right: 12px;
+    transition: all 500ms;
+}
+
+.footer1 a:hover, .footer1 a:active, .footer1 a:focus {
+    color: #c0c0c0;
+}
+
+.footer2 {
+    width: 50%;
+    padding-top:20px;
+    text-align: right;
+    float: left;
+}
+
+.bottom-bar {
+    width: 100%;
+    height: 14px;
+    margin: 0 auto;
+    background: transparent url('../img/bk_bottombar.png') left bottom repeat-x;;
+}
+
+ .bk_bb {
+    width: 1024px;
+    margin: 0 auto;
+    height: 14px;
+    background: #f5cf34;    
+}
+
+/* MENU */
+
+
+
+
+
+/* ==========================================================================
+   Media Queries
+   ========================================================================== */
+
+@media only screen and (min-width: 35em) {
+
+}
+
+@media print,
+       (-o-min-device-pixel-ratio: 5/4),
+       (-webkit-min-device-pixel-ratio: 1.25),
+       (min-resolution: 120dpi) {
+
+}
+
+/* ==========================================================================
+   Helper classes
+   ========================================================================== */
+
+.ir {
+    background-color: transparent;
+    border: 0;
+    overflow: hidden;
+    *text-indent: -9999px;
+}
+
+.ir:before {
+    content: "";
+    display: block;
+    width: 0;
+    height: 150%;
+}
+
+.hidden {
+    display: none !important;
+    visibility: hidden;
+}
+
+.visuallyhidden {
+    border: 0;
+    clip: rect(0 0 0 0);
+    height: 1px;
+    margin: -1px;
+    overflow: hidden;
+    padding: 0;
+    position: absolute;
+    width: 1px;
+}
+
+.visuallyhidden.focusable:active,
+.visuallyhidden.focusable:focus {
+    clip: auto;
+    height: auto;
+    margin: 0;
+    overflow: visible;
+    position: static;
+    width: auto;
+}
+
+.invisible {
+    visibility: hidden;
+}
+
+.clearfix:before,
+.clearfix:after {
+    content: " ";
+    display: table;
+}
+
+.clearfix:after {
+    clear: both;
+}
+
+.clearfix {
+    *zoom: 1;
+}
+
+/* ==========================================================================
+   Print styles
+   ========================================================================== */
+
+@media print {
+    * {
+        background: transparent !important;
+        color: #000 !important; /* Black prints faster: h5bp.com/s */
+        box-shadow: none !important;
+        text-shadow: none !important;
+    }
+
+    a,
+    a:visited {
+        text-decoration: underline;
+    }
+
+    a[href]:after {
+        content: " (" attr(href) ")";
+    }
+
+    abbr[title]:after {
+        content: " (" attr(title) ")";
+    }
+
+    /*
+     * Don't show links for images, or javascript/internal links
+     */
+
+    .ir a:after,
+    a[href^="javascript:"]:after,
+    a[href^="#"]:after {
+        content: "";
+    }
+
+    pre,
+    blockquote {
+        border: 1px solid #999;
+        page-break-inside: avoid;
+    }
+
+    thead {
+        display: table-header-group; /* h5bp.com/t */
+    }
+
+    tr,
+    img {
+        page-break-inside: avoid;
+    }
+
+    img {
+        max-width: 100% !important;
+    }
+
+    @page {
+        margin: 0.5cm;
+    }
+
+    p,
+    h2,
+    h3 {
+        orphans: 3;
+        widows: 3;
+    }
+
+    h2,
+    h3 {
+        page-break-after: avoid;
+    }
+}
